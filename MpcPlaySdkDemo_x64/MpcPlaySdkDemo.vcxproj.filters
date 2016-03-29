@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="mainWindow">
+      <UniqueIdentifier>{354fe37a-fc01-4b27-9a41-7f4043159dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="videoWall">
+      <UniqueIdentifier>{98f5ef73-5076-42fd-a977-cc61bfea2f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="replay">
+      <UniqueIdentifier>{0aaff2dd-02c1-454d-9fb8-8f54eafbb3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="livingPlay">
+      <UniqueIdentifier>{8e21d584-b2de-4e69-84a0-80d6f4435238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="download">
+      <UniqueIdentifier>{baad897a-a2a4-4c1e-863b-4f58ee83015c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c726d768-b586-413d-9040-14c0ae433f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="alarm">
+      <UniqueIdentifier>{86d9759e-22e1-489b-bcb9-6c9056fb2774}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoginWnd.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitorIndexScheduleWnd.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="PwdModifyWnd.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceTreeWidget.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_AlarmTab.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ConfigScene.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_DownLoadWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_LivingControlWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_LoginWnd.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_MainWindow.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_MediaPlayerWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_MonitorIndexScheduleWnd.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_MulLivingPlayerTab.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_PtzControlWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_PwdModifyWnd.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ReplayControlWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ReplayTab.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ResourceTreeWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_TimeSegmentWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_VidEffCtrWidget.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>mainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>mainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>mainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigItem.cpp">
+      <Filter>videoWall</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigScene.cpp">
+      <Filter>videoWall</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayControlWidget.cpp">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="RePlayerController.cpp">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayTab.cpp">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSegmentWidget.cpp">
+      <Filter>replay</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingControlWidget.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingPlayerController.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaPlayerWidget.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="MulLivingPlayerTab.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PtzController.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PtzControlWidget.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="VidEffCtrWidget.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoEffectControler.cpp">
+      <Filter>livingPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoadController.cpp">
+      <Filter>download</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadFile.cpp">
+      <Filter>download</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoadWidget.cpp">
+      <Filter>download</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmController.cpp">
+      <Filter>alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmRegRecord.cpp">
+      <Filter>alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmTab.cpp">
+      <Filter>alarm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoginWnd.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorIndexScheduleWnd.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="PwdModifyWnd.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTreeWidget.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.hpp">
+      <Filter>mainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigItem.hpp">
+      <Filter>videoWall</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigScene.hpp">
+      <Filter>videoWall</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayControlWidget.hpp">
+      <Filter>replay</Filter>
+    </ClInclude>
+    <ClInclude Include="RePlayerController.hpp">
+      <Filter>replay</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayTab.hpp">
+      <Filter>replay</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSegmentWidget.hpp">
+      <Filter>replay</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingControlWidget.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingPlayerController.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaPlayerWidget.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="MulLivingPlayerTab.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="PtzController.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="PtzControlWidget.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="VidEffCtrWidget.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoEffectControler.hpp">
+      <Filter>livingPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadController.hpp">
+      <Filter>download</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadFile.hpp">
+      <Filter>download</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadWidget.hpp">
+      <Filter>download</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CustomEvent.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SysTypeDefine.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmController.hpp">
+      <Filter>alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmRegRecord.hpp">
+      <Filter>alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmTab.hpp">
+      <Filter>alarm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Makefile.Win32">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
