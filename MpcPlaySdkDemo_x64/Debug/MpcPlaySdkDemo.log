@@ -1,4 +1,0 @@
-﻿  'make' is not recognized as an internal or external command,
-  operable program or batch file.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(123,5): error MSB3073: 命令“make moc
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(123,5): error MSB3073: :VCEnd”已退出，代码为 9009。
